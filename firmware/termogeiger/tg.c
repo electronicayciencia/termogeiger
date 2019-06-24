@@ -74,14 +74,6 @@ void print_apertura() {
 /* --- */
 void main () {
 	
-	/**TEST**/
-	/*int32 a;
-	char i = 1;
-	int32 *aa = app_table_a;
-	a=*(aa+3);
-	a=apertura(1);
-	delay_ms(10);*/
-	
 	// Setup ADC, timer and interrups
 	setup_adc_ports(IN_PIN);
 	setup_adc_ports(RND_PIN);
@@ -119,5 +111,3 @@ void main () {
 		}
 	}
 }
-
-
